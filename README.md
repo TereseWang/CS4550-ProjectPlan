@@ -83,7 +83,8 @@ How to add a drop down list with the given list of result from API calls.
 
 ### Experiment 2:
 #### What did you try?
-
+I tried to use google natural language api to get content classification of the given text 
 #### What was the result?
+I failed doing so, since the overall api calls is relatively complex, and also google natural lanaguge api seems not compatible with exlir. Moreover i had done many research and found that most of the content classification apis is complex to use and can't find a easy one to use. I also can't find a good online tutorial on how to implement this text content classification with pheonix app. 
 #### What did you learn?
-
+I think i need to cancel this feature since it will take a lot effort to complete such large project 
