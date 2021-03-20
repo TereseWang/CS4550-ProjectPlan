@@ -37,7 +37,6 @@ More details on each category:
 - I am going to add a searching engine for articles for each different categories 
 
 
-
 ### What kinds of users do you expect to have use your app?
 animal doctor, organization helping to find lost found cat, cat breeder, organization for cat adoption, normal cat lover users, user lost cat. 
 ### For each kind of users, what is their most common workflow / user story?
@@ -84,6 +83,7 @@ How to add a drop down list with the given list of result from API calls.
 
 ### Experiment 2:
 #### What did you try?
+
 #### What was the result?
 #### What did you learn?
 
