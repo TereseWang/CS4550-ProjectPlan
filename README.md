@@ -10,6 +10,7 @@ For my project, I am going to build a website that allows people to share their 
 - I am also going to get a cat breed list api, https://api.thecatapi.com/v1/images/search?breed_id=beng, this api is commonly used in cat related websites, and will allow me to list all type of cat breed when comes to posting article about a particular cat breed. 
 - I want to also use bad-word filter api to prevent unfriendly words and such, https://rapidapi.com/neutrinoapi/api/bad-word-filter
 - I also want to use google Natural Language to detect possible categories of the given article 
+- I want to add a search/filter engine for the website based on the title or content of the articles
 
 ### What realtime behavior are you planning?
 - Update comment for each article 
