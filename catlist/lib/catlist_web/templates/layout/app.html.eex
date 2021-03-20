@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catlist</title>
+  <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+  <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+</head>
+<body>
+  <form class="form-group">
+    <img id="imageToSwap" src=<%= CatlistHelper.image("orie") %> width=300 height=300 />
+    <select id="dlist" onChange="swapImage()">
+      <%= for breed <- CatlistHelper.breed_info do %>
+        <option value=<%= CatlistHelper.image(elem(breed, 1)) %> > <%= elem(breed, 0) %> </option> %>
+      <% end %>
+    </select>
+  </form>
+
+
+  <script type="text/javascript">
+  function swapImage(){
+    var image = document.getElementById("imageToSwap");
+    var dropd = document.getElementById("dlist");
+    value = dropd.value;
+    image.src = dropd.value;
+  };
+  </script>
+</body>
+
+</html>
