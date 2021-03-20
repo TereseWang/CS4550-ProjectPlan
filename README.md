@@ -70,8 +70,18 @@ animal doctor, organization helping to find lost found cat, cat breeder, organiz
 
 ### Experiment 1:
 #### What did you try?
+I tried to get a breeds dropdown list by connecting to the cat breed api "https://api.thecatapi.com/v1/images/search?breed_ids=#{id}", and also get an image that correspond with the selected breed (may not need image after)
+
 #### What was the result?
+It's working fine, besides breeds, it also get a bunch of information about different breeds of cat, but i didnt putted into the test web. Some example provided below:
+
+<img width="708" alt="Screen Shot 2021-03-19 at 11 28 41 PM" src="https://user-images.githubusercontent.com/53097179/111857963-94dba400-890b-11eb-8f11-3e4e7c78fb46.png">
+<img width="769" alt="Screen Shot 2021-03-19 at 11 28 36 PM" src="https://user-images.githubusercontent.com/53097179/111857964-95743a80-890b-11eb-8e5e-b0bdfc981fbc.png">
+<img width="617" alt="Screen Shot 2021-03-19 at 11 28 27 PM" src="https://user-images.githubusercontent.com/53097179/111857966-960cd100-890b-11eb-8372-a561e1f3f4ea.png">
+
 #### What did you learn?
+How to add a drop down list with the given list of result from API calls.
+
 ### Experiment 2:
 #### What did you try?
 #### What was the result?
